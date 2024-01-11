@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 48074169}
   - component: {fileID: 48074168}
   m_Layer: 0
-  m_Name: Cube (72)
+  m_Name: PortalSW
   m_TagString: teleport down
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9750,7 +9750,7 @@ GameObject:
   - component: {fileID: 993509584}
   - component: {fileID: 993509583}
   m_Layer: 0
-  m_Name: Cube (74)
+  m_Name: PortalNE
   m_TagString: teleport down
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9944,7 +9944,7 @@ GameObject:
   - component: {fileID: 1017311662}
   - component: {fileID: 1017311661}
   m_Layer: 0
-  m_Name: Cube (73)
+  m_Name: PortalNW
   m_TagString: teleport down
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12697,7 +12697,7 @@ GameObject:
   - component: {fileID: 1374783315}
   - component: {fileID: 1374783314}
   m_Layer: 0
-  m_Name: Cube (69)
+  m_Name: PortalS
   m_TagString: teleport down
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14061,7 +14061,7 @@ GameObject:
   - component: {fileID: 1502057009}
   - component: {fileID: 1502057008}
   m_Layer: 0
-  m_Name: Cube (71)
+  m_Name: PortalSE
   m_TagString: teleport down
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14079,7 +14079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9354500048e7e434186fed44f7077edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
+  destination: {fileID: 48074168}
   active: 1
 --- !u!65 &1502057009
 BoxCollider:
@@ -17346,7 +17346,7 @@ GameObject:
   - component: {fileID: 1895831256}
   - component: {fileID: 1895831255}
   m_Layer: 0
-  m_Name: Cube (70)
+  m_Name: PortalN
   m_TagString: teleport up
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17361,7 +17361,7 @@ Transform:
   m_GameObject: {fileID: 1895831253}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7077538, z: -0, w: 0.7064592}
-  m_LocalPosition: {x: -12.782, y: 0.054, z: -4.72}
+  m_LocalPosition: {x: -12.782, y: 0, z: -4.72}
   m_LocalScale: {x: 3.265582, y: 1.0725127, z: 0.96725386}
   m_ConstrainProportionsScale: 0
   m_Children: []

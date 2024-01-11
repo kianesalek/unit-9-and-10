@@ -14,7 +14,7 @@ public class Portal : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             destination.active = false;
-            other.transform.position = destination.transform.position;
+            other.transform.position = new Vector3(destination.transform.position.x, other.transform.position.y, destination.transform.position.z);
         }
     }
     private void OnTriggerExit(Collider other)
